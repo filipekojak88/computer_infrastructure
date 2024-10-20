@@ -52,3 +52,30 @@ In this case as it was appending I used '>>'.
 6 - I executed 9 more times the command 'date +" %Y%m%d%H%M%S" >> now.txt' in Terminal and then checked again the data within the file 'now.txt', but this time I used the command 'more' to see the data. Note: I found this discussion in Quora explaining the difference between 'cat' and 'more' (https://www.quora.com/Whats-the-difference-between-cat-more-and-less-in-Linux#:~:text=The%20cat%20command%20displays%20the,scroll%20up%20the%20next%20page).
 
 
+### Task 3: Formatting Timestamps
+
+Run the date command again, but this time format the output using YYYYmmdd_HHMMSS (e.g., 20261114_130003 for 1:00:03 PM on November 14, 2016). Refer to the date man page (using man date) for more formatting options. (Press q to exit the man page). Append the formatted output to a file named formatted.txt.
+
+Steps:
+
+1 - I consulted the manual for the command date by typing 'date man' in Terminal and pressing enter. I was able to see from the examples that the date can be formatted to output in Terminal in the following way:
+- Year: %Y
+- Month: %m
+- Day: %d
+- Hour: %H
+- Minute: %M
+- Second: %S
+
+Therefore, if I want to write YYYYmmdd_HHMMSS in terminal that would have to be written by using "%Y%m%d_%H%M%S". Note: Double quotes are used in the example before and after the wished format.
+
+2 - I also found by looking into the manual of command date that the operand '+' sign specifies the format in which the date and time must be displayed.
+In this case as I want the date to be displayed in a certain format, I had to add the plus before the new format. The command typed was like 'date +" %Y%m%d_%H%M%S"'.
+I ran the date command by typing the following in Terminal 'date +" %Y%m%d_%H%M%S"' and pressing enter. This gave the current Date and Time in the format expected, i.e. 20241020_214025.
+
+3 - I had to go from timestamps repository back one parent folder using '../' instead of 'cd ..', which I learned once I forgot the command 'cd ..' and when I tried it then it just worked well. I am taking that the file 'formatted.txt' is to be created in the directory 'data' once this was created in Task 1 and also used in Task 2, which indicates that in Task 3 the directory should also be used.
+
+4 - Confirmed that I was in the repository 'data', then I typed in Terminal the command 'date +"%Y%m%d_%H%M%S" >> formatted.txt'. This command created the file 'formatted.txt'.
+
+5 - To confirm the date within the file 'formatted.txt' I used the command 'cat formatted.txt' and I was able to see the date and time '20241020_223520'.
+
+For this task, I also reviewed the information on https://phoenixnap.com/kb/linux-date-command#:~:text=To%20format%20the%20date%20command's,substituted%20by%20their%20current%20values.&text=To%20see%20all%20formatting%20options,or%20use%20the%20man%20command.
