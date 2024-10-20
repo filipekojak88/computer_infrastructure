@@ -79,3 +79,13 @@ I ran the date command by typing the following in Terminal 'date +" %Y%m%d_%H%M%
 5 - To confirm the date within the file 'formatted.txt' I used the command 'cat formatted.txt' and I was able to see the date and time '20241020_223520'.
 
 For this task, I also reviewed the information on https://phoenixnap.com/kb/linux-date-command#:~:text=To%20format%20the%20date%20command's,substituted%20by%20their%20current%20values.&text=To%20see%20all%20formatting%20options,or%20use%20the%20man%20command.
+
+### Task 4: Create Timestamped Files
+
+Use the touch command to create an empty file with a name in the YYYYmmdd_HHMMSS.txt format. You can achieve this by embedding your date command backticks ` into the touch command. You should no longer use redirection (>>) in this step.
+
+I consulted the superuser website (https://superuser.com/questions/982156/quickest-way-to-give-file-name-the-current-date-on-linux) and found that I can use touch to create a file and backticks with the command date followed by space, the operand '+' and the date format and backtick again to be able to embed the date with the determined format as a name of the new file created by the command touch. The command used in Terminal would look like: touch `date +"%Y%m%d_%H%M%S.txt"`
+
+I just had to make sure that '.txt' was presented after the format for second to ensure it creates a text file. I could confirm by typing the command 'ls' in my Terminal that the file '20241020_225246.txt' was created.
+
+
