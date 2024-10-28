@@ -99,4 +99,10 @@ Furthermore, I exited from man wget with 'q', I accessed the directory '<weather
 Though I could see that the file 'weather.json' was created within the folder '<weather>', I typed in Terminal 'ls' and it was output to me the file 'weather.json' within the folder '<weather>'.
 I also used 'nano weather.json' to see the content within the file in my Terminal.
 
+### Task 6: Timestamp the Data
+
+Modify the command from Task 5 to save the downloaded file with a timestamped name in the format YYYYmmdd_HHMMSS.json.
+
+This task was completed using the knowlodge from tasks 4 and 5. Just had to type in Terminal the command: wget -O `date +"%Y%m%d_%H%M%S.json"` https://prodapi.metweb.ie/observations/athenry/today
+Then to confirm that the content of the file I checked using nano again.
 
