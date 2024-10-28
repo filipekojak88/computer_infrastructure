@@ -45,7 +45,7 @@ In this case as it was appending I used '>>'.
 
 3 - For the time, I use the recommendation of Video 2 from week 05 of the class of Computer Infrastructure which is to use the format 'date +" %Y%m%d%H%M%S"'.
 
-4 - Then, I added the file name 'now.txt' to be added tothe current repository (/Users/filipecarvalho/Desktop/computer_infrastructure/data/timestamps) and pressed enter.
+4 - Then, I added the file name 'now.txt' to be added to the current repository (/Users/filipecarvalho/Desktop/computer_infrastructure/data/timestamps) and pressed enter.
 
 5 - This created the file 'now.txt'. I entered ls in Terminal to see the files within the repository timestamps (https://www.linode.com/docs/guides/ls-command-in-linux/) and found 'now.txt', then I used the command 'cat now.txt' to confirm the data within the file (https://phoenixnap.com/kb/linux-cat-command#:~:text=The%20cat%20(concatenate)%20command%20in,files%2C%20and%20create%20new%20files.).
 
@@ -105,4 +105,22 @@ Modify the command from Task 5 to save the downloaded file with a timestamped na
 
 This task was completed using the knowlodge from tasks 4 and 5. Just had to type in Terminal the command: wget -O `date +"%Y%m%d_%H%M%S.json"` https://prodapi.metweb.ie/observations/athenry/today
 Then to confirm that the content of the file I checked using nano again.
+
+### Task 7: Write the Script
+
+Write a bash script called weather.sh in the root of your repository. This script should automate the process from Task 6, saving the weather data to the data/weather directory. Make the script executable and test it by running it.
+
+By following the steps of video 04 from week 06 on script.mvk from course Computer Infrastructure, I first started by creating the file 'weather.sh' with the folder <weather> using the command touch in Terminal.
+I moved weather.sh from weather folder to two parent folders above within root folder <computer_infrastructure> using 'mv weather.sh ../../' (https://support.apple.com/en-ie/guide/terminal/apddfb31307-3e90-432f-8aa7-7cbc05db27f7/mac#:~:text=Go%20to%20the%20Terminal%20app,it%20in%20the%20new%20location.)
+
+I then opened `weather.sh` and added a "shebang" to indicate to the system that this file contains commands meant to be executed by the specified command interpreter. (https://medium.com/@codingmaths/bin-bash-what-exactly-is-this-95fc8db817bf). 
+
+In the second line I added the command that I used previously in Terminal: 
+wget -O data/weather/ `date +"%Y%m%d_%H%M%S.json"` https://prodapi.metweb.ie/observations/athenry/today
+
+I then went to the root of my repository <computer_infrastructure>, typed in 'ls -al' and saw that the file 'weather.sh' did not have a 'x' on the permission of the files under the folder <computer_infrastructure>, therefore was not identified as executable (https://digitalcloud.training/understanding-the-linux-file-system-and-file-permissions/#:~:text=Default%20permissions%20for%20the%20root,and%20execute%20but%20not%20write.). 
+
+To change it to executable, I typed in Terminal the command 'chmod u+x ./weather.sh'. I used the command ls -al to check my files under the folder computer_infrastructure again and noticed that the 'x' appeared in the permission for the file 'weather.sh' and the file name as well changed the colour to red, signifying it is executable now (https://askubuntu.com/questions/29589/chmod-ux-versus-chmod-x). 
+
+When I tried to execute ./weather.sh in my command line to test if json files would be generated I was given the following error "data/weather/: Is a directory", when troubleshooting the error using 'Chat GPT' (https://chatgpt.com/c/67104c29-65f4-8012-8332-1ef8e6190d48) I found that there was a space between data/weather/ and `date +"%Y%m%d_%H%M%S.json"` https://prodapi.metweb.ie/observations/athenry/today in the file 'weather.sh' creating the error. I removed the space and executed the program in file weather.sh in Terminal and then the file '20241028_163417.json' was created. I opened the file to check its content in Terminal using 'nano data/weather/20241028_163417.json'.
 
