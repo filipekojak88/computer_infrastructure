@@ -88,4 +88,15 @@ I consulted the superuser website (https://superuser.com/questions/982156/quicke
 
 I just had to make sure that '.txt' was presented after the format for second to ensure it creates a text file. I could confirm by typing the command 'ls' in my Terminal that the file '20241020_225246.txt' was created.
 
+### Task 5: Download Today's Weather Data
+
+Change to the 'data/weather' directory. Download the latest weather data for the Athenry weather station from Met Eireann using 'wget'. Use the '-O <filename>' options to save the file as 'weather.json'. The data can be found at this URL:
+https://prodapi.metweb.ie/observations/athenry/today.
+
+To complete this task, I first checked the manual for wget. I could not find it so I searched how to install wget in Terminal. I was able to install using the command 'brew install wget' that I learned from https://stackoverflow.com/questions/33886917/how-to-install-wget-in-macos.
+Now that I had the program 'wget' installed in my machine I then went into 'man wget'. From week 06 video 02 of the class on wget_timestamps of Computer Infrastructure I was biased that the command was 'wget' followed by '-O' followed by the '<filename>' and the website. However, I wanted to understand a bit more on how the command 'wget' works with '-O' to output the file with the specified name. I got the understand that the -O (--output-document) option in wget is used to specify a single output file where all downloaded content will be written, rather than saving each document to its original filename as specified in the URL.
+Furthermore, I exited from man wget with 'q', I accessed the directory '<weather>' under the directory '<data>'. I then typed in Terminal 'wget -O weather.json https://prodapi.metweb.ie/observations/athenry/today' and executed.
+Though I could see that the file 'weather.json' was created within the folder '<weather>', I typed in Terminal 'ls' and it was output to me the file 'weather.json' within the folder '<weather>'.
+I also used 'nano weather.json' to see the content within the file in my Terminal.
+
 
