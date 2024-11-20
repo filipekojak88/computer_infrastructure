@@ -124,3 +124,4 @@ To change it to executable, I typed in Terminal the command 'chmod u+x ./weather
 
 When I tried to execute ./weather.sh in my command line to test if json files would be generated I was given the following error "data/weather/: Is a directory", when troubleshooting the error using 'Chat GPT' (https://chatgpt.com/c/67104c29-65f4-8012-8332-1ef8e6190d48) I found that there was a space between data/weather/ and `date +"%Y%m%d_%H%M%S.json"` https://prodapi.metweb.ie/observations/athenry/today in the file 'weather.sh' creating the error. I removed the space and executed the program in file weather.sh in Terminal and then the file '20241028_163417.json' was created. I opened the file to check its content in Terminal using 'nano data/weather/20241028_163417.json'.
 
+
