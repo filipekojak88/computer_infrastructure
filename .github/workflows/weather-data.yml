@@ -2,12 +2,12 @@ name: Run Daily Weather Fetch
 
 on:
   schedule:
-    # Run at 10:00 AM UTC 
+    # Run at 10:00 AM UTC
     - cron: '0 10 * * *'
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 permissions:
-    contents: write # Grand write permissions to push changes
+    contents: write # Grant write permissions to push changes
 
 jobs:
   run-weather:
@@ -18,33 +18,33 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    # Set up Python
+    # Set up Python (optional, but you might need this for other tasks in the future)
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
 
-    # Set up  bash and wget
+    # Set up bash and wget
     - name: Set up bash and wget
       run: sudo apt-get update && sudo apt-get install -y wget
 
     # Run the weather script
     - name: Run weather script
-      run: bash weather.sh  
-    
+      run: bash weather.sh  # Corrected to run the script with bash
+
     # Commit and push the new weather data
     - name: Commit and push changes
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name "github-actions[bot]"
-        
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         
+        # Add the new weather data
         git add data/weather/*.json
         
+        # Commit the changes (only if there are changes)
         git commit -m "Update weather data for $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
-
+        
+        # Push the changes back to the repository
         git push origin main
-
-
