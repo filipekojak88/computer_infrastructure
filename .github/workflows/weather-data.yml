@@ -30,7 +30,7 @@ jobs:
 
     # Run the weather script
     - name: Run weather script
-      run: python weather.sh  
+      run: bash weather.sh  
     
     # Commit and push the new weather data
     - name: Commit and push changes
