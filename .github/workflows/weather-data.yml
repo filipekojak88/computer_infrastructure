@@ -1,4 +1,4 @@
-name: Daily Weather Fetch
+name: Run Daily Weather Fetch
 
 on:
   schedule:
