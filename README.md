@@ -79,44 +79,44 @@ I am currently a Quality Engineer with a Production Engineering & Management bac
 
 <a id="4">[4]</a> About Us (no date) Met Éireann - The Irish Meteorological Service. Available at: https://www.met.ie/about-us (Accessed: 08 December 2024). 
 
-<a id="5">[5]</a> https://simpledev.io/lesson/create-folder-terminal-1/
+<a id="5">[5]</a> Create a folder - terminal (2022) Simple Dev. Available at: https://simpledev.io/lesson/create-folder-terminal-1/ (Accessed: 08 December 2024).
 
-<a id="6">[6]</a> https://www.macworld.com/article/221277/command-line-navigating-files-folders-mac-terminal.html
+<a id="6">[6]</a> McElhearn, K. (2022) Master the macos command line: How to navigate files and folders in terminal, Macworld. Available at: https://www.macworld.com/article/221277/command-line-navigating-files-folders-mac-terminal.html (Accessed: 08 December 2024). 
 
-<a id="7">[7]</a> https://stackoverflow.com/questions/43221469/write-current-date-time-to-a-file-using-shell-script
+<a id="7">[7]</a> Write current date/time to a file using shell script (1962) Stack Overflow. Available at: https://stackoverflow.com/questions/43221469/write-current-date-time-to-a-file-using-shell-script (Accessed: 08 December 2024). 
 
-<a id="8">[8]</a> https://www.linode.com/docs/guides/ls-command-in-linux/
+<a id="8">[8]</a> LS command in linux: Listing files & directories (2023) Linode Guides & Tutorials. Available at: https://www.linode.com/docs/guides/ls-command-in-linux/ (Accessed: 08 December 2024). 
 
-<a id="9">[9]</a> https://phoenixnap.com/kb/linux-cat-command#:~:text=The%20cat%20(concatenate)%20command%20in,files%2C%20and%20create%20new%20files
+<a id="9">[9]</a> Zivanov, S. (2024) Linux Cat Command (with examples): Phoenixnap KB, Knowledge Base by phoenixNAP. Available at: https://phoenixnap.com/kb/linux-cat-command#:~:text=The%20cat%20(concatenate)%20command%20in,files%2C%20and%20create%20new%20files (Accessed: 08 December 2024).
 
-<a id="10">[10]</a> https://www.quora.com/Whats-the-difference-between-cat-more-and-less-in-Linux#:~:text=The%20cat%20command%20displays%20the,scroll%20up%20the%20next%20page 
+<a id="10">[10]</a> Whats the difference between ‘cat’ ‘more’ and ‘less’ in linux? (no date) Quora. Available at: https://www.quora.com/Whats-the-difference-between-cat-more-and-less-in-Linux#:~:text=The%20cat%20command%20displays%20the,scroll%20up%20the%20next%20page (Accessed: 08 December 2024).
 
-<a id="11">[11]</a> https://phoenixnap.com/kb/linux-date-command#:~:text=To%20format%20the%20date%20command's,substituted%20by%20their%20current%20values.&text=To%20see%20all%20formatting%20options,or%20use%20the%20man%20command 
+<a id="11">[11]</a> Marijan, B. (2024) Linux date command: Set, change, format and display date, Knowledge Base by phoenixNAP. Available at: https://phoenixnap.com/kb/linux-date-command#:~:text=To%20format%20the%20date%20command’s,substituted%20by%20their%20current%20values.&text=To%20see%20all%20formatting%20options,or%20use%20the%20man%20command (Accessed: 08 December 2024).  
 
-<a id="12">[12]</a> https://superuser.com/questions/982156/quickest-way-to-give-file-name-the-current-date-on-linux
+<a id="12">[12]</a> Quickest way to give file name the current date on linux (no date) Super User. Available at: https://superuser.com/questions/982156/quickest-way-to-give-file-name-the-current-date-on-linux (Accessed: 08 December 2024). 
 
-<a id="13">[13]</a> https://prodapi.metweb.ie/observations/athenry/today 
+<a id="13">[13]</a> Met Eireann (No date) Prodapi.metweb.ie. Available at: https://prodapi.metweb.ie/observations/athenry/today (Accessed: 08 December 2024).
 
-<a id="14">[14]</a> https://stackoverflow.com/questions/33886917/how-to-install-wget-in-macos
+<a id="14">[14]</a> How to install WGET in macos? (no date) Stack Overflow. Available at: https://stackoverflow.com/questions/33886917/how-to-install-wget-in-macos (Accessed: 08 December 2024).
 
-<a id="15">[15]</a> https://support.apple.com/en-ie/guide/terminal/apddfb31307-3e90-432f-8aa7-7cbc05db27f7/mac#:~:text=Go%20to%20the%20Terminal%20app,it%20in%20the%20new%20location 
+<a id="15">[15]</a> Manage files in terminal on Mac (no date) Apple Support. Available at: https://support.apple.com/en-ie/guide/terminal/apddfb31307-3e90-432f-8aa7-7cbc05db27f7/mac#:~:text=Go%20to%20the%20Terminal%20app,it%20in%20the%20new%20location (Accessed: 08 December 2024). 
 
-<a id="16">[16]</a> https://medium.com/@codingmaths/bin-bash-what-exactly-is-this-95fc8db817bf 
+<a id="16">[16]</a> Mishra, S. (2020) (#!/bin/bash ) what exactly is this ?, Medium. Available at: https://medium.com/@codingmaths/bin-bash-what-exactly-is-this-95fc8db817bf (Accessed: 08 December 2024). 
 
-<a id="17">[17]</a> https://digitalcloud.training/understanding-the-linux-file-system-and-file-permissions/#:~:text=Default%20permissions%20for%20the%20root,and%20execute%20but%20not%20write 
+<a id="17">[17]</a> Understanding the linux file system and file permissions (2023) Digital Cloud Training. Available at: https://digitalcloud.training/understanding-the-linux-file-system-and-file-permissions/#:~:text=Default%20permissions%20for%20the%20root,and%20execute%20but%20not%20write (Accessed: 08 December 2024). 
 
-<a id="18">[18]</a> https://chatgpt.com/c/67104c29-65f4-8012-8332-1ef8e6190d48 
+<a id="18">[18]</a> (No date) Chatgpt. Available at: https://openai.com/chatgpt/ (Accessed: 08 December 2024).
 
-<a id="19">[19]</a> https://pandas.pydata.org/docs/reference/api/pandas.read_json.html 
+<a id="19">[19]</a> Pandas.read_json# (no date) pandas.read_json - pandas 2.2.3 documentation. Available at: https://pandas.pydata.org/docs/reference/api/pandas.read_json.html (Accessed: 08 December 2024). 
 
-<a id="20">[20]</a> https://www.javatpoint.com/pandas-dataframe-head
+<a id="20">[20]</a> Pandas dataframe.head() - javatpoint (no date) www.javatpoint.com. Available at: https://www.javatpoint.com/pandas-dataframe-head (Accessed: 08 December 2024). 
 
-<a id="21">[21]</a> https://www.geeksforgeeks.org/python-pandas-dataframe-info/
+<a id="21">[21]</a> Python: Pandas dataframe.info() (2023) GeeksforGeeks. Available at: https://www.geeksforgeeks.org/python-pandas-dataframe-info/ (Accessed: 08 December 2024). 
 
-<a id="22">[22]</a> https://llego.dev/posts/pandas-df-describe-statistics-numeric-columns/
+<a id="22">[22]</a> Llego, M.A. (2023) A comprehensive guide to pandas df.describe() for descriptive statistics on numeric columns, Unconventional Musings from an Extraordinary Mind. Available at: https://llego.dev/posts/pandas-df-describe-statistics-numeric-columns/ (Accessed: 08 December 2024). 
 
-<a id="23">[23]</a> https://windy.app/blog/what-is-wind-direction.html#:~:text=Because%20the%20wind%20direction%20is,north%2Dnortheast%20wind%20(NNE)
+<a id="23">[23]</a> How to read wind direction. even if it sounds too simple (no date) WINDY.APP. Available at: https://windy.app/blog/what-is-wind-direction.html#:~:text=Because%20the%20wind%20direction%20is,north%2Dnortheast%20wind%20(NNE) (Accessed: 08 December 2024). 
 
-<a id="24">[24]</a> https://www.montrealsciencecentre.com/blog/dry-cold-damp-cold-winter-weather-colder-when-humidity-higher
+<a id="24">[24]</a> Dry cold, damp cold... is winter weather colder when humidity is higher? (2023) Montreal Science Centre. Available at: https://www.montrealsciencecentre.com/blog/dry-cold-damp-cold-winter-weather-colder-when-humidity-higher (Accessed: 08 December 2024). 
 
-<a id="25">[25]</a> https://data.gov.ie/dataset/todays-weather-athenry
+<a id="25">[25]</a> Today’s Weather Athenry (no date) Data.Gov.IE. Available at: https://data.gov.ie/dataset/todays-weather-athenry (Accessed: 08 December 2024). 
