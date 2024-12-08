@@ -7,7 +7,10 @@ This README has been written with [Github's documentation on README](https://doc
 MarkDown was used in this README file and was based on [GitHub's Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) [[3]](#3).
 
 ## About This Project
-
+   
+![Met Eireann](https://www.met.ie/images/radar/web17_radar15_202412070945.png)
+*Met Eireann - Irish weather* [[26]](#26)  
+  
 The Weather Data Processing Report showcases acquired knowledge with Linux/Unix commands such as `mkdir`, `wget`, and `touch`, as well as the use of the `date` command for timestamp generation. It also highlights Python programming skills, particularly with the `pandas` library for reading, inspecting, and analyzing JSON data. The ability to troubleshoot and optimize processes, including debugging scripts and using resources like manual pages, is also evident. Overall, the report reflects a blend of command-line, automation techniques, and data analysis capabilities which reflects the content learned in the module of Computer Infrastructure.
 
 The data used in this project was obtained from [Met Eireann - Irish Meteorological Service](https://www.met.ie) website which provides weather information and related services to the public and specialized sectors such as aviation and agriculture. Met Eireann monitors, analyzes, and predicts Ireland's weather and climate, utilizing the latest technological and scientific advances to improve the accuracy and effectiveness of its forecasts [[4]](#4).
@@ -120,3 +123,5 @@ I am currently a Quality Engineer with a Production Engineering & Management bac
 <a id="24">[24]</a> Dry cold, damp cold... is winter weather colder when humidity is higher? (2023) Montreal Science Centre. Available at: https://www.montrealsciencecentre.com/blog/dry-cold-damp-cold-winter-weather-colder-when-humidity-higher (Accessed: 08 December 2024). 
 
 <a id="25">[25]</a> Today’s Weather Athenry (no date) Data.Gov.IE. Available at: https://data.gov.ie/dataset/todays-weather-athenry (Accessed: 08 December 2024). 
+
+<a id="26">[26]</a> Met éireann - the Irish Meteorological Service (no date) Met Éireann - The Irish Meteorological Service. Available at: https://www.met.ie/ (Accessed: 08 December 2024).
