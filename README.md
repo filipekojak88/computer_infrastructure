@@ -25,39 +25,18 @@ Some suggested applications:
 
 This project processes and stores weather data using automation and scripting tools. Below is a guide to navigate the structure and use the files:
 
-### Folder Structure
-- `.github/workflows/`  
-  Contains automation workflows like `weather-data.yml` for CI/CD tasks.
-
-- `data/`  
-  Houses all generated data:
-  - `timestamps/`: Stores time-tracking files (`formatted.txt`, `now.txt`).  
-  - `weather/`: Contains weather data as JSON files with timestamped filenames.
-
-- `.gitignore`  
-  Lists ignored files/folders for version control.  
-
-- `README.md`  
-  Main documentation for the project.
-
-- `weather.ipynb` 
-  Jupyter Notebook for analyzing weather data.
-
-
-### Usage Guide
-
-1. **Navigate the Project**  
+1. Navigate the Project  
 Use [Computer Infrastructure](https://github.com/filipekojak88/computer_infrastructure/tree/main) to enter the project folder.
 
-2. **Run Automation**  
-Trigger workflows via `.github/workflows/weather-data.yml`.
+2. Run Automation  
+Trigger workflows via [.github/workflows/weather-data.yml](.github/workflows/weather-data.yml) by running [weather.sh](weather.sh). The `weather.sh` script downloads and saves Athenry's current weather data from the Met Éireann API with a timestamped filename.
 
-3. **Process Data**  
-   - Timestamp files: Stored in `data/timestamps/`.  
-   - Downloaded weather data: Check `data/weather/` for timestamped JSON files.
+3. Process Data 
+   - Timestamp files: Stored in [data/timestamps/](data/timestamps/).  
+   - Downloaded weather data: Check [data/weather/](data/weather/) for timestamped JSON files.
 
-4. **Analyze Weather Data**  
-Open `weather.ipynb` in Jupyter Notebook to explore and analyze the weather records.
+4. Analyze Weather Data  
+Open [weather.ipynb](weather.ipynb) in Jupyter Notebook to explore and analyze the weather records.
 
 The file weather.ipynb documents a comprehensive process for weather data collection and analysis using Bash scripting and Python. It begins by outlining tasks such as creating directory structures, generating and formatting timestamps, and automating data downloads from Met Éireann’s API. Each task is meticulously detailed with commands like mkdir, date, and wget, explaining how to dynamically name and save weather data files with timestamps.
 
@@ -65,24 +44,34 @@ The later sections cover creating and testing a Bash script (weather.sh) to auto
 
 ## Get Help
 
-If questions are raised while checking this project, you can contact me via github, and I will be happy to provide more information. Full list of references is available at the end of this README file and the numbers provided across this README.md and the penguins.ipynb files are direct links to their respective references in the reference section, which can provide further insights into the structure and fundamentals used to build this project.
+If questions are raised while checking this project, you can contact me via github, and I will be happy to provide more information. Full list of references is available at the end of this README file and the numbers provided across this README.md and the weather.ipynb files are direct links to their respective references in the reference section, which can provide further insights into the structure and fundamentals used to build this project.
 
 ## Contribute
-
-I used openincolab.com to generate the following clickable link.
-It opens the penguins.ipynb notebook in Google Colab
-
- Open In Colab
 
 This project reflects the author's understanding of data automation and analysis using Python and Bash scripting. Contributions and suggestions to improve the project are highly encouraged, as they can lead to more robust solutions and innovative features.
 Additionally, the step-by-step nature of this project enables others to replicate the process or customize it to analyze datasets from different sources. The automation of daily data collection ensures consistency and demonstrates the practical use of continuous integration tools.
 
 Contributions are welcome, especially those that improve functionality, enhance the readability of scripts, or add new features for analyzing weather data.
 
+I used [openincolab.com](https://openincolab.com) to generate the following clickable link.      
+It opens the [weather.ipynb](weather.ipynb) notebook in [Google Colab](https://colab.research.google.com)
+
+<a target="_blank" href="https://colab.research.google.com/github/filipekojak88/computer_infrastructure/blob/main/weather.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+
 ## Author
 
-I am currently a Quality Engineer with a Production Engineering & Management background. Though I have had around 12 years of experience swinging between the medical device and car assembly industry, I am currently chasing a change in my career through this course of Data Analytics in ATU. My long term goal is to move into Artificial Intelligence. If you want to know more about me, please add me on LinkedIn: Filipe Carvalho
+I am currently a Quality Engineer with a Production Engineering & Management background. Though I have had around 12 years of experience swinging between the medical device and car assembly industry, I am currently chasing a change in my career through this course of Data Analytics in ATU. My long term goal is to move into Artificial Intelligence. If you want to know more about me, please add me on LinkedIn: [Filipe Carvalho](https://www.linkedin.com/in/filipe-carvalho-8146232a/) 
 
-Reference:
 
-[4](4) https://www.met.ie/about-us
+## References:      
+
+<a id="1">[1]</a> About readmes (no date) GitHub Docs. Available at: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes (Accessed: 29 April 2024).   
+
+<a id="2">[2]</a> Basic writing and formatting syntax (no date) GitHub Docs. Available at: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax (Accessed: 29 April 2024).       
+
+<a id="3">[3]</a> Basic writing and formatting syntax (no date) GitHub Docs. Available at: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax (Accessed: 29 April 2024).   
+
+<a id="4">[4]</a> https://www.met.ie/about-us
